@@ -1,0 +1,36 @@
+.background-image {
+    background-image: url('../../BackgroundImages/homeimagefinal.jpg'); 
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    overflow: auto; 
+ }
+
+.form-containerReview {
+     background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+ .buttonReview {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+.buttonReview {
+    background-color: #7e89a9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.buttonReview:hover {
+    background-color: #7e89a9;
+}

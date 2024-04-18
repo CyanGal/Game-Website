@@ -1,0 +1,57 @@
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+   
+}
+.card-fade-in {
+    animation: fadeIn 1s ease-out;
+} 
+ 
+
+ .infocard{
+    box-sizing: border-box;
+    width: 450px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding: 0;
+    background-color:transparent;
+    position: relative;
+    font-size: 16px;
+     
+
+
+ } 
+
+.card-img{
+    box-sizing: border-box; 
+    width:450px;
+    height: 270px;
+    object-fit: cover; 
+    opacity: 0.4;  
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+
+
+@media (max-width: 480px) {
+    .cards-container {
+        margin-right: 300px; 
+    }
+  
+    .infocard{
+        flex: 0 0 100%;
+        max-width: 100%; 
+        padding: 0; 
+        margin-bottom: 1rem;
+
+    }
+
+}

@@ -1,0 +1,119 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
+
+.card-fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.background-image {
+    background-image: url('../BackgroundImages/homeimagefinal.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed; 
+    width: 100vw; 
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(216, 219, 221, 0.574);
+}
+
+.home-card-img {
+    width: 50%; 
+    object-fit: cover; 
+}
+.home-card-img2{
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.home-card-body {
+    flex: 1;
+}
+
+.home-card-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 1rem;
+    text-align: right;
+    border-radius: 5px;
+    background-color: rgba(216, 219, 221, 0.574);
+} 
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+} 
+
+.centered-text {
+    background-color: rgba(216, 219, 221, 0.574);
+    text-align: center; 
+    width: 50%;   
+}
+
+@media (max-width: 768px) {
+    .home-card, .home-card-reverse {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .home-card-img, .home-card-reverse .home-card-img {
+        width: 100%;
+        order: -1; 
+    }
+
+    .home-card-body, .home-card-reverse .home-card-body {
+        width: 100%; 
+        order: 1; 
+       
+    }
+
+    .centered-text {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) { 
+    .home-card, .home-card-reverse {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .home-card-img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .home-card-body {
+        padding: 0.5rem;
+    }
+
+    .home-card-body .card-title, 
+    .home-card-body .card-text {
+        text-align: center; 
+    }
+}

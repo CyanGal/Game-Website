@@ -1,0 +1,125 @@
+
+
+.background-image {
+  background-image: url('../../BackgroundImages/homeimagefinal.jpg'); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed; 
+  width: 100vw; 
+  height: 100vh;
+  top: 0; 
+  left: 0;
+  z-index: -1;
+  transform: scale(1);
+  overflow: hidden;
+}
+.review-Cards{
+  margin: 20px !important;
+}
+#reviewTitle {
+  color: #2C1C16;
+  background-color: rgba(216, 219, 221, 0.415);
+  width: 320px;
+  font-size: 44px;
+  border-radius: 1rem;
+  border-width: 3px;
+}
+
+#review_title {
+  font-weight: bold;
+}
+
+.flip-card {
+  position: relative;
+  width: 450px;  
+  height: 335px;
+
+}
+
+.flip-card > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  /* width: 100%; */
+  height: 100%;
+  position: absolute; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  transform: rotateY(0deg);
+  z-index: 2; 
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.flip-card:hover .flip-card-front {
+  transform: rotateY(-180deg);
+  z-index: 1; 
+}
+
+.flip-card:hover .flip-card-back {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+.review-card{
+
+  background-color: #99a6cb84;
+  border-radius: 10px;
+  text-align: left;
+  width: fit-content;
+  max-width: 480px;
+  height: auto;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  border-color: #404b69e8;
+  border-radius: 1rem;
+  border-width: 3px;
+  max-height: 100%; 
+  text-overflow: ellipsis;
+  white-space: initial;
+
+  
+}
+.custom-card {
+
+  max-width: 480px;
+  overflow: visible;
+  
+}
+.card-text-content {
+  font-size: 15px;
+  color: #000; 
+  overflow-wrap: break-word;
+  text-align: left;
+}
+.custom-card-title {
+  font-size: 23px;
+  color: #000; 
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .card{
+    max-width: 355px !important;
+  }
+
+  .custom-card-title{
+    font-size: small;
+  }
+
+  .custom-card-body{
+    width: 360px;
+  }
+}

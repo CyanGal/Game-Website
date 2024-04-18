@@ -1,0 +1,38 @@
+.navbar-scroll, .navbar-scrolled {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  #span1{
+    color: #32725d;
+  }
+  #span2{
+    color: #857145;
+  }
+
+.bg-body-tertiary {
+  background-color: #027a78bc !important; 
+  color: #717597; 
+}
+
+.navbar-brand {
+  background-color: white;
+  padding: 5px 10px; 
+  border-radius: 30px; 
+  border: 1px solid #dee2e6; 
+  font-size: 1.95rem;
+  letter-spacing: 2px;
+}
+.me-auto{
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-right: 0.2rem;
+  letter-spacing: 0.5px;
+}
+.nav-link {
+  color: #fcccba; 
+}
+
+.nav-link:hover {
+  color: #DEB887;
+}
