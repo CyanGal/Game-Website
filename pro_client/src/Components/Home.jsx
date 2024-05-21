@@ -4,7 +4,7 @@ import cardimage1 from '../BackgroundImages/img1.png';
 import cardimage from '../BackgroundImages/img4.png';
 import './HomeStyles.css';
 import ScrollToTopButton from '../Components/ScrollButton/ScrollToTopButton';
-
+ 
 const Home = () => {
   return (
     <>  
@@ -50,6 +50,7 @@ const Home = () => {
           </Card.Text>
         </Card.Body>
   </Card>*/}
+  
   <div className="home-card-reverse card-fade-in" style={{ width: '55%'}}>
       <div className="row g-0">
         <div className="col-md-8">

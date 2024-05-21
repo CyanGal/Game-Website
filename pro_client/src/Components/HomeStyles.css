@@ -6,13 +6,13 @@
         opacity: 1;
     }
 } 
-
+ 
 .card-fade-in {
     animation: fadeIn 1s ease-out;
 }
 
 .background-image {
-    background-image: url('../BackgroundImages/homeimagefinal.jpg'); 
+    background-image: url('../BackgroundImages/homeimagefinal.jpg');  
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     flex-direction: row;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    background-color: rgba(216, 219, 221, 0.574);
+    background-color: rgba(216, 219, 221, 0.703);
 }
 
 .home-card-img {

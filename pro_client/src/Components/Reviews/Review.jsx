@@ -40,11 +40,11 @@ const Review = ({ _id, review_description, username,  review_title }) => {
             <p className="custom-card-text">{review_description}</p>
             <p><div>
                       <span>&nbsp;Was this review helpful? </span><br/> <br/>
-                      &nbsp;<Button variant="primary" size="sm" className="mr-2" style={{ backgroundColor: '#7e89a9', borderColor: '#7e89a9' }} onClick={handleYesClick}><FontAwesomeIcon icon={farThumbsUp} /> ({yesCount})</Button> &nbsp; 
-                      &nbsp;<Button variant="primary" size="sm" className="mr-2" style={{ backgroundColor: '#7e89a9', borderColor: '#7e89a9' }} onClick={handleNoClick}><FontAwesomeIcon icon={farThumbsDown} /> ({noCount})</Button>
+                      &nbsp;<Button variant="primary" size="sm" className="mr-2" style={{ backgroundColor: '#C6B794', borderColor: '#C6B794' }} onClick={handleYesClick}><FontAwesomeIcon icon={farThumbsUp} /> ({yesCount})</Button> &nbsp; 
+                      &nbsp;<Button variant="primary" size="sm" className="mr-2" style={{ backgroundColor: '#C6B794', borderColor: '#C6B794' }} onClick={handleNoClick}><FontAwesomeIcon icon={farThumbsDown} /> ({noCount})</Button>
                   </div></p>
             <div className="find-more-button">
-                  &nbsp;<Button variant="primary" style={{ backgroundColor: '#7e89a9', borderColor: '#7e89a9' }} >
+                  &nbsp;<Button variant="primary" style={{ backgroundColor: '#C6B794', borderColor: '#C6B794' }} >
                           <Link className="text-light text-decoration-none" to={`/reviews/${_id}`}>Learn more</Link>
                       </Button>
                   </div>
