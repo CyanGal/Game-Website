@@ -28,7 +28,8 @@ app.use(express.json());
 
 // Connect DB
 mongoose.connect(
-  "mongodb+srv://MERN_Project:gameweb@mern.woihtzl.mongodb.net/GameWeb?retryWrites=true&w=majority",
+  // "mongodb+srv://MERN_Project:gameweb@mern.woihtzl.mongodb.net/GameWeb?retryWrites=true&w=majority",
+  "mongodb+srv://MERN_Project:gameweb@mern.woihtzl.mongodb.net/GameWeb?retryWrites=true&w=majority&appName=MERN",
 
   {
     useNewUrlParser: true,

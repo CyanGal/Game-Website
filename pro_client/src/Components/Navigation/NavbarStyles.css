@@ -11,7 +11,7 @@
   }
 
 .bg-body-tertiary {
-  background-color: #027a78bc !important; 
+  background-color: #857758e2 !important; 
   color: #717597; 
 }
 
@@ -30,9 +30,9 @@
   letter-spacing: 0.5px;
 }
 .nav-link {
-  color: #fcccba; 
+  color: #FFEFCA; 
 }
 
 .nav-link:hover {
-  color: #DEB887;
+  color: #c7af79;
 }
